@@ -51,6 +51,7 @@ a{
 }
 a:hover,a:visited,a:active{
 	opacity: 0.5;
+	cursor: pointer;
 }
 #home{
 	width:60%;

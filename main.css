@@ -1,0 +1,81 @@
+body{
+	font-family: 'Julee', cursive;
+}
+.blk{
+	background-color: black;
+}
+.wt{
+	background-color:linear-gradient(to top, #e1e2e6, #ffffff);;
+}
+.back{
+	background: url(img/back.png);
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-attachment: fixed;
+	background-size:cover;
+	height:100%;
+}
+.frame{
+	width:90%;
+	height:100%;
+	margin:3% auto;
+}
+.content{
+	width:70%;
+	margin:auto;
+	padding: 0.3em;
+}
+.arrow{
+	width:30%;
+}
+h1{
+	font-size: 4em;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	text-align: center;
+}
+h2{
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+h3,a{
+	font-size: 1.5em;
+	letter-spacing: 0.1em;
+	text-align: center;
+}
+a{
+	text-decoration: none;
+	color:yellow;
+	text-align: center;
+}
+a:hover,a:visited,a:active{
+	opacity: 0.5;
+}
+#home{
+	width:60%;
+	height:50%;
+	margin:15% auto;
+}
+div#home{
+	outline: 10px groove red;
+	padding: 1em;
+	text-align: center;
+	/*animation:3s animateBorder ease-in-out infinite;*/
+}
+/*@keyframes animateBorder{
+	to{
+		outline-color:red;
+		box-shadow: 0 0 0 10px black;
+	}
+}*/
+/*right section-------------------------------------------------*/
+#offLight{
+	position:absolute;
+	left:120%;
+}
+img#rightA:active,img#rightA:visited{
+	transform: translate(200px,0);
+	transition: 5s;
+}
+

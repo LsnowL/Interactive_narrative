@@ -220,7 +220,19 @@ div#home{
 	background-attachment: fixed;
 	background-size: cover;
 }
-
+/*citation page-----------------------------------------*/
+#citation{
+	width:80%;
+	margin:10% auto;
+	padding: 1em;
+	font-kerning: 5px;
+	font-size: 0.5em;
+	box-shadow:0 4px 8px 0 rgba(0,0,0,0.2);
+}
+footer{
+	width:100%;
+	text-align: center;
+}
 
 
 

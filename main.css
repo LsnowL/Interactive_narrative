@@ -1,31 +1,14 @@
 body{
 	font-family: 'Julee', cursive;
 }
-.blk{
-	background-color: black;
-}
-.wt{
-	background:linear-gradient(to top, #e1e2e6, #ffffff);
-	z-index: 2;
-}
-.back{
-	background: url(img/back.png);
-	background-repeat: no-repeat;
-	background-position:center center;
-	background-attachment: fixed;
-	background-size:cover;
-	height:100%;
-	z-index: 1;
-}
 .frame{
-	width:90%;
+	width:100%;
 	height:100%;
-	margin:3% auto;
 }
 .content{
 	width:70%;
 	margin:auto;
-	padding: 0.3em;
+	padding: 1em;
 }
 .arrow{
 	width:30%;
@@ -36,13 +19,8 @@ h1{
 	text-transform: uppercase;
 	text-align: center;
 }
-h2{
-	font-size: 2em;
-	letter-spacing: 0.1em;
-	text-align: center;
-}
 h3,a{
-	font-size: 1.5em;
+	font-size: 2em;
 	letter-spacing: 0.1em;
 	text-align: center;
 }
@@ -65,12 +43,6 @@ div#home{
 	text-align: center;
 	/*animation:3s animateBorder ease-in-out infinite;*/
 }
-/*@keyframes animateBorder{
-	to{
-		outline-color:red;
-		box-shadow: 0 0 0 10px black;
-	}
-}*/
 /*right section-------------------------------------------------*/
 #offLight{
 	animation:2s slideRotateLeft ease-in-out 1;
@@ -95,4 +67,99 @@ div#home{
 	transform: translate(200px,0);
 	transition: 5s;
 }*/
+/*background img----------------------------------------------------*/
+.shadow{
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0.2em;
+    z-index: 3;
+}
+.blk{
+	background: rgba(0,0,0,0.7);
+	padding:0.2em;
+}
+.wt{
+	/*background:linear-gradient(to top, #e1e2e6, #ffffff);*/
+	background: rgba(255,255,255,0.8);
+	z-index: 2;
+}
+#girlreading{
+	background:#ffffff url(img/girlreading.png) no-repeat left top;
+	background-attachment: scroll;
+	background-size: cover;
+}
+#under,#offLight{
+	background:url(img/underneath_bookcase.png) no-repeat left top;
+	background-size: 40%;
+	background-attachment: fixed;
+}
+#sleep,#despaired{
+	background:url(img/underneath_bookcase.png) no-repeat right bottom;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#friendshome{
+	background:url(img/sleep.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#sixthQ{
+	background:url(img/Ava.svg) no-repeat right bottom;
+	background-attachment: fixed;
+	background-size: 70%;
+}
+#sevenQ{
+	background:url(img/sleep.jpg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#eightQ{
+	background:url(img/tombstone.png) repeat center center;
+	background-attachment: fixed;
+	background-size: 30%;
+}
+#ninth{
+	background:url(img/menreading.png) no-repeat left bottom;
+	background-attachment: fixed;
+}
+#tenthQ{
+	background:url(img/star1.png) no-repeat left top;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#elethQ{
+	background:url(img/william.svg) no-repeat center center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+#twethQ{
+	background:url(img/ghost.png) no-repeat left bottom;
+	background-attachment: fixed;
+	background-size: 35%;
+}
+#thirthQ{
+	background:url(img/vegetable.png) no-repeat left bottom;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

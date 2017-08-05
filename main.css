@@ -44,7 +44,7 @@ div#home{
 	/*animation:3s animateBorder ease-in-out infinite;*/
 }
 /*right section-------------------------------------------------*/
-#offLight{
+.slideRotateLeft{
 	animation:2s slideRotateLeft ease-in-out 1;
 }
 @keyframes slideRotateLeft{
@@ -67,6 +67,51 @@ div#home{
 	transform: translate(200px,0);
 	transition: 5s;
 }*/
+/*menu-----------------------------------------------------------*/
+.menu{
+	position: fixed;
+	z-index: 100;
+}
+.dropbtn, .homeBt{
+	opacity:0.5;
+    background-color:rgb(0,0,0);
+    font-family:sans-serif;
+    color: white;
+    padding: 1em;
+    font-size: 1em;
+    border: none;
+    cursor: pointer;
+}
+.dropbtn:hover,.dropbtn:active,.dropbtn:visited,.dropbtn:focus,
+.homeBt:hover,.homeBt:active,.homeBt:visited,.homeBt:focus{
+	opacity: 1;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    margin-bottom:2em;
+    font-size: 0.5em;
+    position: absolute;
+	background-color:rgba(0,0,0,0.8);
+    min-width: 160px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    z-index: 10;
+}
+.dropdown-content a{
+    color: white;
+    padding:0.2em;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover, .dropdown-content a:active,.dropdown-content a:visited{
+	background-color:rgba(0,0,0,1);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
 /*background img----------------------------------------------------*/
 .shadow{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -88,7 +133,7 @@ div#home{
 	background-attachment: scroll;
 	background-size: cover;
 }
-#under,#offLight{
+#thirdQ,#offLight{
 	background:url(img/underneath_bookcase.png) no-repeat left top;
 	background-size: 40%;
 	background-attachment: fixed;
